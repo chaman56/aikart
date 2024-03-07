@@ -6,11 +6,11 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'https://aikart-backend.vercel.app',
         secure: false,
       },
       '/ai': {
-        target: 'http://localhost:3000',
+        target: 'https://aikart-backend.vercel.app',
         secure: false,
       },
     },
