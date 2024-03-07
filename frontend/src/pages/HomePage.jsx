@@ -61,7 +61,7 @@ const HomePage = () => {
       <Testimonials />
       
       <div className=' text-center pt-10'>
-        <a href={`/rate/${currentUser._id}`} className=' px-3 py-3 rounded-xl mb-5 bg-blue-700 text-white cursor-pointer'>Rate us!!</a>
+        <a href={`/rate/${currentUser?._id}`} className=' px-3 py-3 rounded-xl mb-5 bg-blue-700 text-white cursor-pointer'>Rate us!!</a>
       </div>
 
       <FAQ />
