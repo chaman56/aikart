@@ -6,11 +6,11 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://aikart-backend.vercel.app',
+        target: 'https://aikart.onrender.com',
         secure: false,
       },
       '/ai': {
-        target: 'https://aikart-backend.vercel.app',
+        target: 'https://aikart.onrender.com',
         secure: false,
       },
     },
