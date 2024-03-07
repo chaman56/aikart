@@ -43,7 +43,7 @@ const ReviewPage = () => {
             e.preventDefault();
         try {
             console.log('Form data:', formData);
-            await axios.post(`http://localhost:3000/api/user/updateReview/${currentUser._id}`, formData);
+            await axios.post(`/api/user/updateReview/${currentUser._id}`, formData);
             setFormData((prevData) => ({
                 ...prevData,
                 rating : 0, review : ""
